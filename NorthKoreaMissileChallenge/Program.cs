@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace NorthKoreaMissileChallenge
 {
     class Program
     {
+        private static readonly List<string> possibleTargets = new List<string> { "New York", "Washington", "Seattle"};
+        
         /// <summary>
         /// Methods you will need:
         ///
